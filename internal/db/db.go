@@ -6,8 +6,6 @@ import (
 	"bubble/internal/db/ent"
 	"bubble/pkg/config"
 	"bubble/pkg/logger"
-
-	_ "github.com/mattn/go-sqlite3" // SQLite 사용 시
 )
 
 func InitEnt(cfg *config.Config, log *logger.Logger) *ent.Client {
