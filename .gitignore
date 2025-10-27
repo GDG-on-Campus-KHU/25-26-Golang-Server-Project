@@ -1,0 +1,57 @@
+# ------------------------------
+# Go build / dependency files
+# ------------------------------
+bin/
+*.exe
+*.out
+*.test
+*.log
+
+# Go modules
+vendor/
+go.work
+go.work.sum
+
+# ------------------------------
+# Environment / secrets
+# ------------------------------
+.env
+*.env
+.env.*
+
+# ------------------------------
+# Editor / IDE files
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ------------------------------
+# Docker / Compose / Volumes
+# ------------------------------
+# Docker build cache
+*.pid
+*.tar
+*.log
+docker-data/
+# You can keep docker-compose.yml itself if you want it versioned
+# docker-compose.override.yml
+
+# ------------------------------
+# Generated files
+# ------------------------------
+# Ent generated code
+/internal/db/ent/ent.go
+/internal/db/ent/client.go
+/internal/db/ent/migrate/
+# gRPC generated files
+/internal/grpcapi/*.pb.go
+
+# ------------------------------
+# Build artifacts
+# ------------------------------
+coverage.out
+dist/
+tmp/
