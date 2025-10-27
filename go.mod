@@ -5,6 +5,7 @@ go 1.24.6
 require (
 	entgo.io/ent v0.14.5
 	github.com/confluentinc/confluent-kafka-go/v2 v2.12.0
+	github.com/google/uuid v1.6.0
 	github.com/mattn/go-sqlite3 v1.14.32
 	google.golang.org/grpc v1.76.0
 	google.golang.org/protobuf v1.36.10
@@ -18,7 +19,6 @@ require (
 	github.com/clipperhouse/uax29/v2 v2.3.0 // indirect
 	github.com/go-openapi/inflect v0.21.3 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.24.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-runewidth v0.0.19 // indirect

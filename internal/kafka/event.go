@@ -43,4 +43,3 @@ func (o *Order) MarshalBinary() ([]byte, error) {
 func (o *Order) UnmarshalBinary(data []byte) error {
 	return json.Unmarshal(data, o)
 }
-출처: https://piatoss3612.tistory.com/51 [개발 코어 강화 일지:티스토리]
